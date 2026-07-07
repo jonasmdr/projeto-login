@@ -40,13 +40,21 @@ Grandes telas: acima de 1200px
     }
 
     article#login > section#imagem {
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
 
     article#login > section#formulario {
-        float: right;
+        float: left;
         width: 60%;
+    }
+
+    section#formulario > h1 {
+        font-size: 2em;
+    }
+
+    section#formulario > p {
+        font-size: 1.2em;
     }
 }
